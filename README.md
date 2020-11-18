@@ -51,25 +51,21 @@ ignored_ip_addresses: []                    # List of IP
 
 在线上实验Tab创建分组如`优惠券推荐`，在该分组下创建不通类型的实验实例如`推荐二组-ctr`,该实例下可以创建一系列具体的实验实体。
 
-![ab #1](../assets/images/how-to/algolink/ab-1.jpg)
+![ab #1](./resources/ab-1.jpg)
 
 ## Tutorial 2: 创建实验实体
 在上一节创建实验分组和实例，在本节中创建具体的实验实体，提供两种方式：`基于已有模型服务接口`和`任意命名空间`
 
-![ab #2](../assets/images/how-to/algolink/ab-2.jpg)
+![ab #2](./resources/ab-2.jpg)
 
 基于已有模型服务接口：
 该方式只显示目前在线的服务（下线的服务不展示），且需要选择接口数至少为2，并键入实验名称，用于后续接口调用时使用。
 
-![ab #3](../assets/images/how-to/algolink/ab-3.jpg)
-
-任意命名空间，该方式在模型列表键入需要实验的模型名称逗号分开。
-
-![ab #4](../assets/images/how-to/algolink/ab-4.jpg)
+![ab #3](./resources/ab-3.jpg)
 
 接下来点击实验实体即可查看实验详情，并可以做一些操作
 
-![ab #5](../assets/images/how-to/algolink/ab-5.jpg)
+![ab #5](./resources/ab-4.jpg)
 
 ## Tutorial 3: 使用实验API
 
