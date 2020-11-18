@@ -43,10 +43,10 @@ start-server: ## start the local development server
 	export FLASK_APP=back_server; \
 	export FLASK_DEBUG=1; \
     export FLASK_RUN_HOST="127.0.0.1"; \
-    export FLASK_RUN_PORT=6002; \
+    export FLASK_RUN_PORT=6003; \
 	flask run
 start-prod: ## start the local production server
-	gunicorn --workers=3 -b 0.0.0.0:6002  back_server.wsgi:app >>web-predict.log;
+	gunicorn --workers=3 -b 0.0.0.0:6003  back_server.wsgi:app >>web-predict.log;
 
 test-models-endpoint: ## test the models endpoint
 	curl --request GET --url http://localhost:5000/api/models

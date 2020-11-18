@@ -1,3 +1,5 @@
 abtesting/
 back_server/
-frontend/
+frontend/node_modules
+frontend/src
+venv/

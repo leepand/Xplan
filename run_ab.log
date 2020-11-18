@@ -1,0 +1,17 @@
+[2020-11-18 17:21:15 +0800] [61046] [INFO] Starting gunicorn 20.0.4
+[2020-11-18 17:21:15 +0800] [61046] [INFO] Listening at: http://0.0.0.0:9001 (61046)
+[2020-11-18 17:21:15 +0800] [61046] [INFO] Using worker: gevent
+[2020-11-18 17:21:15 +0800] [61049] [INFO] Booting worker with pid: 61049
+[2020-11-18 17:21:15 +0800] [61050] [INFO] Booting worker with pid: 61050
+[2020-11-18 17:21:15 +0800] [61051] [INFO] Booting worker with pid: 61051
+[2020-11-18 17:21:15 +0800] [61052] [INFO] Booting worker with pid: 61052
+[2020-11-18 17:21:15 +0800] [61053] [INFO] Booting worker with pid: 61053
+[2020-11-18 17:21:15 +0800] [61054] [INFO] Booting worker with pid: 61054
+[2020-11-18 17:21:15 +0800] [61055] [INFO] Booting worker with pid: 61055
+[2020-11-18 17:21:15 +0800] [61056] [INFO] Booting worker with pid: 61056
+127.0.0.1 - - [18/Nov/2020:17:21:26 +0800] "GET / HTTP/1.1" 200 452 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+127.0.0.1 - - [18/Nov/2020:17:21:27 +0800] "GET /favicon.ico HTTP/1.1" 200 0 "http://0.0.0.0:9001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+127.0.0.1 - - [18/Nov/2020:17:22:15 +0800] "GET /participate?experiment=button_color&alternatives=red&alternatives=blue&client_id=12345678-1234-5678-1234-56781234567 HTTP/1.1" 200 141 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+127.0.0.1 - - [18/Nov/2020:17:22:15 +0800] "GET /favicon.ico HTTP/1.1" 200 0 "http://127.0.0.1:9001/participate?experiment=button_color&alternatives=red&alternatives=blue&client_id=12345678-1234-5678-1234-56781234567" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+127.0.0.1 - - [18/Nov/2020:17:23:02 +0800] "GET /participate?experiment=button_color&alternatives=red&alternatives=blue&client_id=12345678-1234-5678-1234-5678123456 HTTP/1.1" 200 140 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+127.0.0.1 - - [18/Nov/2020:17:23:02 +0800] "GET /favicon.ico HTTP/1.1" 200 0 "http://127.0.0.1:9001/participate?experiment=button_color&alternatives=red&alternatives=blue&client_id=12345678-1234-5678-1234-5678123456" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
